@@ -12,9 +12,8 @@ export default function SpamDetector() {
   const [stats, setStats] = useState(null);
   const [apiStatus, setApiStatus] = useState('checking');
   
-  // URL de votre API (À MODIFIER après déploiement)
-  const API_URL = 'http://localhost:8000';  // Pour test local
-  // const API_URL = 'https://votre-app.onrender.com';  // Pour production
+  // URL de l'API 
+  const API_URL = 'https://spam-detector-api-8p6z.onrender.com';  // Pour test local
   
   // ============================================
   // VÉRIFICATION DE L'API AU CHARGEMENT
