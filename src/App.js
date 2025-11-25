@@ -40,7 +40,7 @@ export default function SpamDetector() {
   // ==========================================
   // IMPORTANT : Changez cette URL après déploiement !
   
-  const API_URL = 'http://localhost:8000';
+  const API_URL = 'https://spam-detector-api-8p6z.onrender.com';
   // Pour production : 'https://votre-backend.onrender.com'
   
   // ==========================================
